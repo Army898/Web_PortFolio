@@ -1,0 +1,543 @@
+body{
+    background: rgb(220,218,255);
+    background: linear-gradient(142deg, rgba(220,218,255,1) 16%, rgba(246,163,255,1) 45%, rgba(130,219,254,1) 65%, rgba(98,246,212,1) 88%);
+}
+#About_me{
+    text-align: center;
+}
+#Profile_IMG{
+    width: 28%;
+    border: 10px solid rgb(150, 58, 153);
+    border-radius: 90%;
+    box-shadow: 5px 5px 5px rgb(55, 21, 56);
+}
+#my_project{
+    font-size: 30px;
+    color: aliceblue;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+#name-of-me h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#name-of-me h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#Color-vid-edit h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(67, 109, 247);
+    text-shadow: 2px 2px #05f7ff;
+}
+#studying {
+    text-align: center;
+    font-size: 20px;
+}
+#Hello_Parin{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #816262;
+}
+#Hard_Topic{
+    font-size: 20px;
+    text-align: center;
+    border: 4px solid rgb(128, 60, 60);
+    border-radius: 20px;
+    background-color: rgb(221, 183, 252);
+    box-shadow: 5px 5px 5px rgb(59, 39, 0);
+}
+.flex-Hard{
+    display: flex;
+}
+#Hard_center{
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+#Pr_LOGO{
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+#Ps_LOGO{
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+#An_LOGO{
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+#Ae_LOGO{
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+#ClipStu_LOGO{
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+#Soft_Topic{
+    font-size: 20px;
+    text-align: center;
+    border: 4px solid rgb(128, 60, 60);
+    border-radius: 20px;
+    background-color: rgb(221, 183, 252);
+    box-shadow: 5px 5px 5px rgb(59, 39, 0);
+}
+#padding_education{
+    padding-left: 20px;
+}
+#Educatio_Topic h1{
+    border: 3px solid rgb(128, 60, 60);
+    width: fit-content;
+    font-size: 40px;
+    margin-bottom: 0px;
+    border: 4px solid rgb(128, 60, 60);
+    border-radius: 20px;
+    background-color: rgb(183, 252, 252);
+    box-shadow: 5px 5px 5px rgb(59, 39, 0);
+}
+
+#Interes_Topic h1{
+    border: 3px solid rgb(128, 60, 60);
+    width: fit-content;
+    font-size: 40px;
+    margin-bottom: 0px;
+    border: 4px solid rgb(128, 60, 60);
+    border-radius: 20px;
+    background-color: rgb(183, 252, 252);
+    box-shadow: 5px 5px 5px rgb(59, 39, 0);
+}
+#Assign_Topic h1{
+    border: 3px solid rgb(128, 60, 60);
+    text-align: center;
+    width: auto;
+    font-size: 50px;
+    margin-bottom: 0px;
+    border: 4px solid rgb(128, 60, 60);
+    border-radius: 20px;
+    background-color: rgb(183, 252, 252);
+    box-shadow: 5px 5px 5px rgb(59, 39, 0);
+}
+.Assign_link{
+    font-size: 160%;
+}
+#Content_Topic {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.Flex_contact{
+    display: flex;
+}
+#cantact-center{
+    text-align: center;
+    margin: auto;
+}
+#Face_logo{
+    width: 90px;
+    height: 90px;
+    padding-right: 20px;
+}
+#Gmail_logo{
+    width: 90px;
+    height: 90px;
+    padding-right: 20px;
+}
+#IG_logo{
+    width: 90px;
+    height: 90px;
+    padding-right: 20px;
+}
+#Reference_Topic{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #816262;
+}
+#Reference-center{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* ------------------------------------------button--------------------------------------------- */
+
+.My_Project-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.My_Project-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.My_Project-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.My_Project-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background: rgb(255, 103, 141);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .My_Project-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.My_Project-pushable:hover {
+  filter: brightness(110%);
+}
+
+.My_Project-pushable:hover .My_Project-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.My_Project-pushable:active .My_Project-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.My_Project-pushable:hover .My_Project-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.My_Project-pushable:active .My_Project-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.My_Project-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* -------------PortFolio-------------- */
+#Welcome{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border: 15px solid brown;
+    border-radius: 50px;
+    color: rgb(0, 104, 104);
+    background-color: antiquewhite;
+    text-shadow: 2px 2px #05f7ff;
+}
+#Welcome_Topic{
+    font-size: 30px;
+}
+#Creative_Topic{
+    background-color: beige;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid brown;
+    border-radius: 30px;
+    color: rgb(95, 23, 1);
+    text-shadow: 2px 2px #ffab7a;
+}
+#paraCrea{
+    text-align: left;
+}
+#Creative_IMG{
+    width: 600px;
+    height: 600px;
+}
+#Creative_Thinking{
+    background-color: rgb(255, 236, 206);
+    border: 5px solid brown;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#paraSticker{
+    text-align: left;
+}
+#Sticker_Topic{
+    background-color: beige;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid brown;
+    border-radius: 30px;
+    color: rgb(95, 23, 1);
+    text-shadow: 2px 2px #ffab7a;
+}
+#Line_sticker{
+    background-color: rgb(255, 236, 206);
+    border: 5px solid brown;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+#Sticker_IMG{
+    width: 700px;
+    height: auto;
+}
+
+
+
+#vid_anime video{
+    width: 650px;
+}
+#paraMask{
+    text-align: left;
+}
+#Mask_Topic{
+    background-color: beige;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid rgb(43, 41, 209);
+    border-radius: 30px;
+    color: rgb(13, 25, 95);
+    text-shadow: 2px 2px #95cfff;
+}
+#Mask_creative{
+    background-color: rgb(190, 247, 255);
+    border: 5px solid rgb(43, 57, 255);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+#vid_FS video{
+    width: 600px;
+}
+#paraAnime{
+    text-align: left;
+}
+#Animation_Topic{
+    background-color: beige;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid rgb(43, 41, 209);
+    border-radius: 30px;
+    color: rgb(13, 25, 95);
+    text-shadow: 2px 2px #95cfff;
+}
+#Animation_1p3{
+    background-color: rgb(190, 247, 255);
+    border: 5px solid rgb(43, 57, 255);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+/* -------------------------------------computer----------------------------------- */
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+}
+#Port_Header{
+    grid-column: 1;
+}
+#Port_Introduce{
+    grid-column: 2;
+}
+#Hard-Skill{
+    grid-column: 1;
+}
+#Soft-Skill{
+    grid-column: 2;
+}
+#Port_Education{
+    grid-column: 1;
+}
+#Port_Interesting{
+    grid-column: 2;
+}
+#Assignment{
+    grid-column: 1 / span 2;
+}
+#Port_Contact{
+    grid-column: 1 / span 2;
+}
+#Reference{
+    grid-column: 1 / span 2;
+}
+/* -------------PortFolio-grid---------------------- */
+#Port_grid{
+    grid-column: 1 / span 2;
+}
+#Creative{
+    grid-column: 1;
+}
+#mask{
+    grid-column: 2;
+}
+#Line{
+    grid-column: 1;
+}
+#Animetion{
+    grid-column: 2;
+}
+
+/* -------------------------------------taplet----------------------------------- */
+@media only screen and (max-width: 768px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-gap: 10px;
+    }
+    #Port_Header{
+        grid-column: 1;
+    }
+    #Port_Introduce{
+        grid-column: 2;
+    }
+    #Hard-Skill{
+        grid-column: 1;
+    }
+    #Soft-Skill{
+        grid-column: 2;
+    }
+    #Port_Education{
+        grid-column: 1;
+    }
+    #Port_Interesting{
+        grid-column: 2;
+    }
+    #Assignment{
+        grid-column: 1 / span 2;
+    }
+    #Port_Contact{
+        grid-column: 1 / span 2;
+    }
+    #Reference{
+        grid-column: 1 / span 2;
+    }
+    /* -------------PortFolio-grid---------------------- */
+    #Port_grid{
+        grid-column: 1 / span 2;
+    }
+    #Creative{
+        grid-column: 1;
+    }
+    #mask{
+        grid-column: 2;
+    }
+    #Line{
+        grid-column: 1;
+    }
+    #Animetion{
+        grid-column: 2;
+    }
+}
+/* -------------------------------------Phone----------------------------------- */
+@media only screen and (max-width: 480px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #Port_Header{
+        grid-column: 1;
+    }
+    #Port_Introduce{
+        grid-column: 1;
+    }
+    #Hard-Skill{
+        grid-column: 1;
+    }
+    #Soft-Skill{
+        grid-column: 1;
+    }
+    #Port_Education{
+        grid-column: 1;
+    }
+    #Port_Interesting{
+        grid-column: 1;
+    }
+    #Assignment{
+        grid-column: 1;
+    }
+    #Port_Contact{
+        grid-column: 1;
+    }
+    #Reference{
+        grid-column: 1;
+    }
+        /* -------------PortFolio-grid---------------------- */
+    #Port_grid{
+        grid-column: 1 ;
+    }
+    #Creative{
+        grid-column: 1;
+    }
+    #mask{
+        grid-column: 1;
+    }
+    #Line{
+        grid-column: 1;
+    }
+    #Animetion{
+        grid-column: 1;
+    }
+}
