@@ -1,0 +1,16 @@
+body{
+    background: rgb(212, 255, 251);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+#errormsg{
+    color: red;
+}
+legend{
+    border: 2px solid rgb(90, 43, 28);
+    border-radius: 5%;
+    background-color: rgb(225, 255, 205);
+    color: rgb(122, 188, 245);
+    text-shadow: 2px 2px #05f7ff;
+    font-size: 60px;
+}

@@ -1,0 +1,99 @@
+div{
+    border: 3px solid turquoise;
+}
+body{
+    /* background-image: url("pic/cinnamon-5.jpeg"); */
+    background-color: #E8BA97; 
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 800px;
+    border: 3px solid rgb(128, 88, 30);
+    background-color: #E8BA97;
+    color: rgb(134, 89, 4);
+    border-radius: 50px;
+    width: 900px ;
+    margin: auto;
+    text-align: center;
+}
+#insert_2{
+    border-radius: 50px;
+}
+.pic{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    border: 3px solid rgb(128, 88, 30);
+    border-radius: 50px;
+}
+.pic3-4{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+.left{
+    float: left;
+}
+.padding_left{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    border: 3px solid rgb(128, 88, 30);
+    background-color: #E8BA97;
+    border-radius: 50px;
+    width: 900px ;
+    padding-bottom: 50px;
+    text-align: left;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    border: 3px solid rgb(128, 88, 30);
+    background-color: #E8BA97;
+    color: rgb(134, 89, 4);
+    border-radius: 50px;
+    width: 500px ;
+    margin: auto;
+    text-align: center;
+}
+.flex_2{
+    display: flex;
+}
+.right{
+    float: right;
+}
+.padding_right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    border: 3px solid rgb(128, 88, 30);
+    background-color: #E8BA97;
+    border-radius: 50px;
+    width: 900px ;
+    padding-bottom: 50px;
+    text-align: left
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    border: 3px solid rgb(128, 88, 30);
+    background-color: #E8BA97;
+    color: rgb(134, 89, 4);
+    border-radius: 50px;
+    width: 400px ;
+    margin: auto;
+    text-align: center;
+}

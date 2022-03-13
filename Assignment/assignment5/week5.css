@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(143, 107, 60);
+    border: solid rgb(250, 207, 166);
+    border-radius: 15px;
+}
+div{
+    background-color: rgb(241, 215, 181);
+    border: solid white;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    font-family: monospace;
+    font-size: 55px;
+    margin-left: 10px;
+}
